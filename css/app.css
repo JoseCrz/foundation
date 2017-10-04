@@ -36,3 +36,14 @@ h1, h2, h3, h4, h5, h6, button {
 #submenu-container li a {
   background-color: #48a19d;
 }
+
+#tickets-action .callout {
+  background-color: #5e7eb7;
+  color: white;
+}
+
+#tickets-action .callout button {
+  color: white;
+  border: 1px solid white;
+  font-family: 'Bree Serif', serif;
+}
