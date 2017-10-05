@@ -80,7 +80,24 @@ h1, h2, h3, h4, h5, h6, button {
   background-color: #9676af;
 }
 
+#lineup-container .orbit-container {
+  margin-bottom: 1.5em;
+}
+
+#lineup-container .column:nth-child(odd) figcaption {
+  text-align: right;
+}
+
 .tabs-title {
   display: inline-block;
   float: none;
+}
+
+.orbit-container {
+  height: auto !important;
+
+}
+
+.orbit-slide {
+  max-height: none !important;
 }
