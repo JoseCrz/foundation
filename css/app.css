@@ -101,3 +101,27 @@ h1, h2, h3, h4, h5, h6, button {
 .orbit-slide {
   max-height: none !important;
 }
+
+#tickets-container {
+  padding: 1em 0;
+  background-color: #f6e15f;
+  color: #161742;
+}
+
+.pricing-table {
+  border: 1px solid #161742;
+  font-family: 'Bree Serif', serif;
+  margin-left: 0;
+}
+
+.pricing-table li {
+  font-size: 15px;
+}
+
+.pricing-table li.title {
+  font-size: 25px;
+}
+
+.pricing-table a.button {
+  font-size: 17px;
+}
