@@ -1,5 +1,4 @@
 $(document).foundation()
-alert("HOLI")
 
 $('[data-toggle-dia]').click(function onclick (ev) {
   panel = $(this).data('toggleDia')
