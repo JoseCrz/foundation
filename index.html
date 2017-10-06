@@ -44,20 +44,23 @@
 
     <!-- MENU -->
     <section id="menu-container">
-      <ul class="menu dropdown align-spaced" data-dropdown-menu>
-        <li><a href="#"><i class="fi-ticket"></i> Tickets</a></li>
-        <li>
-          <a href="#"><i class="fi-star"></i> Lineup</a>
-          <ul id="submenu-container" class="menu">
-            <li><a href="#">Viernes</a></li>
-            <li><a href="#">Sábado</a></li>
-            <li><a href="#">Domingo</a></li>
-          </ul>
-        </li>
-        <li><a href="#"><i class="fi-info"></i> Info</a></li>
-        <li><a href="#"><i class="fi-mail"></i> Suscríbete</a></li>
-      </ul>
+      <nav data-magellan>
+        <ul class="menu dropdown align-spaced" data-dropdown-menu>
+          <li><a href="#tickets-container"><i class="fi-ticket"></i> Tickets</a></li>
+          <li>
+            <a href="#lineup-container"><i class="fi-star"></i> Lineup</a>
+            <ul id="submenu-container" class="menu">
+              <li><a href="#">Viernes</a></li>
+              <li><a href="#">Sábado</a></li>
+              <li><a href="#">Domingo</a></li>
+            </ul>
+          </li>
+          <li><a href="#info-container"><i class="fi-info"></i> Info</a></li>
+          <li><a href="#suscribete-container"><i class="fi-mail"></i> Suscríbete</a></li>
+        </ul>
+      </nav>
     </section>
+
     <!-- /MENU -->
 
     <!-- TICKETS -->
@@ -69,7 +72,7 @@
     <!-- /TICKETS -->
 
     <!-- LINEUP -->
-    <section id="lineup-container">
+    <section id="lineup-container" data-magellan-target="lineup-container">
       <h2 class="text-center">Lineup</h2>
       <ul class="tabs text-center" data-tabs id="lineup-tabs">
         <li class="tabs-title is-active"><a href="#panelViernes">Viernes</a></li>
@@ -347,7 +350,7 @@
 
     <!-- COMPRA DE BOLETOS -->
 
-    <section id="tickets-container">
+    <section id="tickets-container" data-magellan-target="tickets-container">
       <h2 class="text-center">Comprar Boletos</h2>
       <div class="row" data-equalizer data-equalize-on="small">
         <div class="small-10 medium-6 column small-offset-1 medium-offset-3">
@@ -388,7 +391,7 @@
     <!-- /COMPRA DE BOLETOS -->
 
     <!-- SUSCRIBETE -->
-    <section id="suscribete-container">
+    <section id="suscribete-container" data-magellan-target="suscribete-container">
       <h2 class="text-center">Suscríbete</h2>
       <h3 class="text-center"><small>Y recibe las últimas novedades</small></h3>
       <form action="" method="" novalidate data-abide>
@@ -410,7 +413,7 @@
     <!-- /SUSCRIBETE -->
 
     <!-- INFORMACION -->
-    <section id="info-container">
+    <section id="info-container" data-magellan-target="suscribete-container">
       <h2 class="text-center">Información</h2>
       <div class="info-map" data-interchange="[assets/map-small.html, small], [assets/map.html, medium]">
       </div>
