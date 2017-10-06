@@ -2,7 +2,7 @@ body {
   background:#ee3f54;
 }
 
-h1, h2, h3, h4, h5, h6, button, input[type="submit"] {
+h1, h2, h3, h4, h5, h6, button, input[type="submit"], p {
   font-family: 'Bree Serif', serif;
 }
 
@@ -145,3 +145,8 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"] {
 #suscribete-container h3 small {
   color: #ffcddc;
 }
+
+#suscribete-container .error-container {
+  font-family: 'Bree Serif', serif;
+}
+
