@@ -154,3 +154,7 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"], p {
   z-index: 100;
 }
 
+#offCanvas {
+  font-family: 'Bree Serif', serif;
+}
+
