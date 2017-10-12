@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"], p {
 
 }
 #lineup-container .tabs .tabs-title a:hover {
-  color: white;
+  color: #a7fffb;
   background-color: #9676af;
 }
 
@@ -162,3 +162,6 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"], p {
   background-color: #e6e6e6;
 }
 
+#lineup-container .tabs .tabs-title.is-active a {
+  color: #f6e15f;
+}
